@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--============================ Resource rocks ===============================-->
+
+  <ThingDef ParentName="RockBase">
+    <defName>GF40K_Mineable_Adamantium</defName>
+    <label>adamantium ore</label>
+    <description>Rock containing bits of adamantium.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(69,69,69)</color> <!-- nice -->
+      <colorTwo>(48,48,48)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>8000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>GF40K_Adamantium</mineableThing>
+      <mineableYield>30</mineableYield>
+      <mineableScatterCommonality>0.10</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>4~10</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>GF40K_Mineable_Auramite</defName>
+    <label>auramite ore</label>
+    <description>Rock containing bits of auramite.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(110,105,65)</color>
+      <colorTwo>(221,161,47)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>GF40K_Auramite</mineableThing>
+      <mineableYield>30</mineableYield>
+      <mineableScatterCommonality>0.07</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>2~4</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+</Defs>

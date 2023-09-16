@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>GrimForge 40k - Imperium Materials</name>
+	<author>flangopink</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>flangopink.GF40KMaterials</packageId>
+	<description>description here</description> <!-- TODO: Edit -->
+</ModMetaData>

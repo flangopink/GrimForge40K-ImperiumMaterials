@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="GF40K_MakeFerrocreteBase" Abstract="True">
+    <jobString>making ferrocrete</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <targetCountAdjustment>20</targetCountAdjustment>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+	<!-- Add research -->
+  </RecipeDef>
+
+  <RecipeDef Name="GF40K_MakeMaterialBase" Abstract="True">
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <targetCountAdjustment>20</targetCountAdjustment>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+	<!-- Add research -->
+  </RecipeDef>
+  
+
+  <!-- Blocks + Steel -->
+  <RecipeDef ParentName="GF40K_MakeFerrocreteBase">
+    <defName>GF40K_Recipe_MakeFerrocreteBlocks</defName>
+    <label>make ferrocrete from stone blocks</label>
+    <description>Crush stone blocks and steel into ferrocrete.</description>
+    <workAmount>700</workAmount>
+    <ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>StoneBlocks</li>
+		  </categories>
+		</filter>
+		<count>10</count>
+	  </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+	<fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>GF40K_Ferrocrete</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+	<defaultIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>GF40K_Ferrocrete</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <GF40K_Ferrocrete>20</GF40K_Ferrocrete>
+    </products>
+  </RecipeDef>
+  
+  <!-- 1 Chunk + Steel -->
+  <RecipeDef ParentName="GF40K_MakeFerrocreteBase">
+    <defName>GF40K_Recipe_MakeFerrocreteChunks</defName>
+    <label>make ferrocrete from chunks</label>
+    <description>Crush stone chunks and steel into ferrocrete.</description>
+    <workAmount>800</workAmount>
+    <ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>StoneChunks</li>
+		  </categories>
+		  </filter>
+		<count>1</count>
+	  </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+  	<fixedIngredientFilter>
+   		<categories>
+			<li>StoneChunks</li>
+		</categories>
+    </fixedIngredientFilter>
+  	<defaultIngredientFilter>
+		<categories>
+			<li>StoneChunks</li>
+		</categories>
+    </defaultIngredientFilter>
+    <products>
+		<GF40K_Ferrocrete>40</GF40K_Ferrocrete>
+    </products>
+  </RecipeDef>
+  
+  <!-- 1 Chunk + 1 Slag -->
+  <RecipeDef ParentName="GF40K_MakeFerrocreteBase">
+    <defName>GF40K_Recipe_MakeFerrocreteSlag</defName>
+    <label>make ferrocrete from chunks and slag</label>
+    <description>Crush stone chunks and steel slag into ferrocrete.</description>
+    <workAmount>850</workAmount>
+    <ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>StoneChunks</li>
+		  </categories>
+		  </filter>
+		<count>1</count>
+	  </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkSlagSteel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+  	<fixedIngredientFilter>
+   		<categories>
+			<li>StoneChunks</li>
+		</categories>
+    </fixedIngredientFilter>
+  	<defaultIngredientFilter>
+		<categories>
+			<li>StoneChunks</li>
+		</categories>
+    </defaultIngredientFilter>
+    <products>
+		<GF40K_Ferrocrete>40</GF40K_Ferrocrete>
+    </products>
+  </RecipeDef>
+
+
+  <!-- (Bulk) x5 Blocks + Steel -->
+  <RecipeDef ParentName="GF40K_MakeFerrocreteBase">
+    <defName>GF40K_Recipe_MakeFerrocreteBlocks_Bulk</defName>
+    <label>make x5 ferrocrete from stone blocks</label>
+    <description>Crush stone blocks and steel into ferrocrete.</description>
+    <workAmount>3500</workAmount>
+    <ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>StoneBlocks</li>
+		  </categories>
+		</filter>
+		<count>50</count>
+	  </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+	<fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>GF40K_Ferrocrete</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+	<defaultIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>GF40K_Ferrocrete</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <GF40K_Ferrocrete>100</GF40K_Ferrocrete>
+    </products>
+  </RecipeDef>
+  
+  <!-- (Bulk) x5 Chunk + Steel -->
+  <RecipeDef ParentName="GF40K_MakeFerrocreteBase">
+    <defName>GF40K_Recipe_MakeFerrocreteChunks_Bulk</defName>
+    <label>make x5 ferrocrete from chunks</label>
+    <description>Crush stone chunks and steel into ferrocrete.</description>
+    <workAmount>4000</workAmount>
+    <ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>StoneChunks</li>
+		  </categories>
+		  </filter>
+		<count>5</count>
+	  </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+  	<fixedIngredientFilter>
+   		<categories>
+			<li>StoneChunks</li>
+		</categories>
+    </fixedIngredientFilter>
+  	<defaultIngredientFilter>
+		<categories>
+			<li>StoneChunks</li>
+		</categories>
+    </defaultIngredientFilter>
+    <products>
+		<GF40K_Ferrocrete>200</GF40K_Ferrocrete>
+    </products>
+  </RecipeDef>
+  
+  <!-- (Bulk) x5 Chunk + Slag-->
+  <RecipeDef ParentName="GF40K_MakeFerrocreteBase">
+    <defName>GF40K_Recipe_MakeFerrocreteSlag_Bulk</defName>
+    <label>make x5 ferrocrete from chunks and slag</label>
+    <description>Crush stone chunks and steel slag into ferrocrete.</description>
+    <workAmount>4250</workAmount>
+    <ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>StoneChunks</li>
+		  </categories>
+		  </filter>
+		<count>5</count>
+	  </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkSlagSteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+  	<fixedIngredientFilter>
+   		<categories>
+			<li>StoneChunks</li>
+		</categories>
+    </fixedIngredientFilter>
+  	<defaultIngredientFilter>
+		<categories>
+			<li>StoneChunks</li>
+		</categories>
+    </defaultIngredientFilter>
+    <products>
+		<GF40K_Ferrocrete>200</GF40K_Ferrocrete>
+    </products>
+  </RecipeDef>
+
+  
+  <!-- Ceramite -->
+  <RecipeDef ParentName="GF40K_MakeMaterialBase">
+    <defName>GF40K_Recipe_MakeCeramite</defName>
+    <label>make ceramite</label>
+    <jobString>making ceramite</jobString>
+    <description>Process materials into ceramite.</description>
+    <workAmount>600</workAmount>
+    <ingredients>
+	  <li>
+		<filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+		</filter>
+		<count>20</count>
+	  </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <GF40K_Ceramite>30</GF40K_Ceramite>
+    </products>
+  </RecipeDef>
+  
+  <!-- (Bulk) x5 Ceramite -->
+  <RecipeDef ParentName="GF40K_MakeMaterialBase">
+    <defName>GF40K_Recipe_MakeCeramite_Bulk</defName>
+    <label>make x5 ceramite</label>
+    <jobString>making ceramite</jobString>
+    <description>Process materials into ceramite.</description>
+    <workAmount>3000</workAmount>
+    <ingredients>
+	  <li>
+		<filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+		</filter>
+		<count>100</count>
+	  </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <products>
+      <GF40K_Ceramite>150</GF40K_Ceramite>
+    </products>
+  </RecipeDef>
+
+
+  <!-- Diamantine -->
+  <RecipeDef ParentName="GF40K_MakeMaterialBase">
+    <defName>GF40K_Recipe_MakeDiamantine</defName>
+    <label>make diamantine</label>
+    <jobString>making diamantine</jobString>
+    <description>Process materials into diamantine.</description>
+    <workAmount>600</workAmount>
+    <ingredients>
+	  <li>
+		<filter>
+          <thingDefs>
+            <li>GF40K_Ceramite</li>
+          </thingDefs>
+		</filter>
+		<count>20</count>
+	  </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <GF40K_Diamantine>30</GF40K_Diamantine>
+    </products>
+  </RecipeDef>
+  
+  <!-- (Bulk) x5 Diamantine -->
+  <RecipeDef ParentName="GF40K_MakeMaterialBase">
+    <defName>GF40K_Recipe_MakeDiamantine_Bulk</defName>
+    <label>make x5 diamantine</label>
+    <jobString>making diamantine</jobString>
+    <description>Process materials into diamantine.</description>
+    <workAmount>3000</workAmount>
+    <ingredients>
+	  <li>
+		<filter>
+          <thingDefs>
+            <li>GF40K_Ceramite</li>
+          </thingDefs>
+		</filter>
+		<count>100</count>
+	  </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <products>
+      <GF40K_Diamantine>150</GF40K_Diamantine>
+    </products>
+  </RecipeDef>
+
+</Defs>
