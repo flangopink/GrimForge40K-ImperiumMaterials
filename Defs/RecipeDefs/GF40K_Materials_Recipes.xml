@@ -10,7 +10,7 @@
     <recipeUsers>
       <li>FabricationBench</li>
     </recipeUsers>
-	<!-- Add research -->
+	<researchPrerequisite>GF40K_IM_Ferrocrete</researchPrerequisite>	
   </RecipeDef>
 
   <RecipeDef Name="GF40K_MakeMaterialBase" Abstract="True">
@@ -21,7 +21,6 @@
     <recipeUsers>
       <li>FabricationBench</li>
     </recipeUsers>
-	<!-- Add research -->
   </RecipeDef>
   
 
@@ -280,6 +279,7 @@
     <jobString>making ceramite</jobString>
     <description>Process materials into ceramite.</description>
     <workAmount>600</workAmount>
+	<researchPrerequisite>GF40K_IM_Ceramite</researchPrerequisite>	
     <ingredients>
 	  <li>
 		<filter>
@@ -310,6 +310,7 @@
     <jobString>making ceramite</jobString>
     <description>Process materials into ceramite.</description>
     <workAmount>3000</workAmount>
+	<researchPrerequisite>GF40K_IM_Ceramite</researchPrerequisite>	
     <ingredients>
 	  <li>
 		<filter>
@@ -341,6 +342,7 @@
     <jobString>making diamantine</jobString>
     <description>Process materials into diamantine.</description>
     <workAmount>600</workAmount>
+	<researchPrerequisite>GF40K_IM_Diamantine</researchPrerequisite>	
     <ingredients>
 	  <li>
 		<filter>
@@ -371,6 +373,7 @@
     <jobString>making diamantine</jobString>
     <description>Process materials into diamantine.</description>
     <workAmount>3000</workAmount>
+	<researchPrerequisite>GF40K_IM_Diamantine</researchPrerequisite>	
     <ingredients>
 	  <li>
 		<filter>
