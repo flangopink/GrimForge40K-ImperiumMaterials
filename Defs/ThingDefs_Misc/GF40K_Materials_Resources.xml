@@ -80,7 +80,6 @@
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
-    <stackLimit>500</stackLimit>
     <smallVolume>true</smallVolume>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
