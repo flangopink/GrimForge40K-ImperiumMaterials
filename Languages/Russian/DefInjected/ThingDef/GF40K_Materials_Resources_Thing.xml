@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- EN: adamantium -->
+	<GF40K_Adamantium.label>адамантий</GF40K_Adamantium.label>
+	<!-- EN: Adamantium is perhaps the strongest material used by the Imperium, impenetrable to most commonplace weapons.\n\nIt is the material composing the Imperial Palace's Eternity Gate, and is often used in conjunction with plasteel and ceramite, such as in the structure of Terminator Armour. -->
+	<GF40K_Adamantium.description>Адамантий — пожалуй, самое прочное и стойкое вещество, известное в Империуме, и неуязвимое для атак из большинства известных видов оружия.\n\nЭтот материал часто используется в сочетании с пласталью и керамитом для производства вещей, которые требуют невероятной прочности на растяжение, например, в структуре доспеха терминатора. Врата Вечности Императорского Дворца сделаны из адамантия.</GF40K_Adamantium.description>
+	<!-- EN: adjective adamantium -->
+	<GF40K_Adamantium.stuffProps.stuffAdjective>адамантия</GF40K_Adamantium.stuffProps.stuffAdjective>
+	
+	<!-- EN: auramite -->
+	<GF40K_Auramite.label>аурамит</GF40K_Auramite.label>
+	<!-- EN: Auramite is a powerful resilient material used in the construction of Adeptus Custodes Power Armour that is said to be similar to the Ceramite used by Space Marines.\n\nAuramite is an incredibly rare substance, whose natural colouration is a shining gold, a hue entirely appropriate for the Emperor's personal guardians. However, through closely guarded alchemical processes, auramite can be tinted, or its colour changed altogether on a molecular level. It is a costly and painstaking process, but considered far more suited to the Custodians' importance than simple repainting. -->
+	<GF40K_Auramite.description>Прочный и ценный материал, применяемый при создании силовой брони Адептус Кустодес. Некоторые утверждают, что он схож с керамитом, используемым космодесантниками.\n\nАурамит — чрезвычайно редкое вещество, естественный цвет которого — блестящее золото, оттенок, хорошо подходящий для личных стражей Императора. Однако с помощью особых алхимических процессов, тайна которых тщательно охраняется, цвет аурамита можно полностью изменить на молекулярном уровне. Это дорогостоящий и кропотливый процесс, но он считается гораздо более соответствующим статусу кустодиев, чем простая перекраска.</GF40K_Auramite.description>
+	<!-- EN: adjective auramite -->
+	<GF40K_Auramite.stuffProps.stuffAdjective>аурамита</GF40K_Auramite.stuffProps.stuffAdjective>
+	
+	<!-- EN: ceramite -->
+	<GF40K_Ceramite.label>керамит</GF40K_Ceramite.label>
+	<!-- EN: Ceramite is a form of ceramic material, used in higher-end types of Imperial armour such as carapace armour, power armour and Tactical Dreadnought Armour. Ceramite conducts almost no heat, making it especially heat-resistant and effective against energy-based weapons.\n\nCeramite is a kind of bonded ceramic armour, especially tough, but light. Repairs are made by setting new layers of ceramite over existing ones. Unlike metal, Ceramite doesn’t rupture or dent on impact and it takes a projectile of considerable power and high calibre to break through it.\n\nCeramite is a high thermal tolerance ceramo-metallic hyper alloy. -->
+	<GF40K_Ceramite.description>Керамит — это тип тепло- и ударостойкого керамического материала, используемого Империумом для производства высокотехнологичной брони: панцирной, силовой или тактической брони дредноута.\n\nКерамит способен поглощать и рассеивать даже самые экстремальные тепловые и прочие энергетические атаки, а также рассеивать многие другие формы электромагнитного излучения.\nВ отличие от металла, керамит не раскалывается и не вминается при ударе, и для его пробития требуется снаряд значительной мощности и высокого калибра.</GF40K_Ceramite.description>
+	<!-- EN: adjective ceramite -->
+	<GF40K_Ceramite.stuffProps.stuffAdjective>керамита</GF40K_Ceramite.stuffProps.stuffAdjective>
+	
+	<!-- EN: diamantine -->
+	<GF40K_Diamantine.label>диамантин</GF40K_Diamantine.label>
+	<!-- EN: Diamantine is a metallic material used by the Imperium of Man to fabricate weapons, ammunition and armour.\nDiamantine is used in bolter ammunition. The standard bolt rounds for assault cannons and other projectiles have diamantine tips.\nArmour is sometimes constructed of diamantine, or walls and doors are sometimes lined or made with it, notably in the walls of a Space Marine Fortress-Monastery. -->
+	<GF40K_Diamantine.description>Диамантин — это металлический материал, широко применяемый в Империуме Человечества для производства оружия, боеприпасов и брони.\n\nВ частности, он используется для изготовления боеприпасов для болтеров, а именно — их наконечников.\n\nИногда диамантин также используют для возведения стен и дверей. К примеру, из него построены стены крепостей-монастырей космодесантников.</GF40K_Diamantine.description>
+	<!-- EN: adjective diamantine -->
+	<GF40K_Diamantine.stuffProps.stuffAdjective>диамантина</GF40K_Diamantine.stuffProps.stuffAdjective>
+	
+	<!-- EN: ferrocrete -->
+	<GF40K_Ferrocrete.label>феррокрит</GF40K_Ferrocrete.label>
+	<!-- EN: Steel mesh and rebar reinforced epoxy based concrete (Ferro-Plasecrete). A cheaper substitute from pure cerablock and ceraplate but still vastly superior to concrete. Has even been used as ablative armour. -->
+	<GF40K_Ferrocrete.description>Феррокрит, изготовляемый на основе раздробленного природного камня, смешанного со связующими агентами, применяется в виде тяжёлых толстых плит, идущих на сооружение стен и перекрытий. Этот материал дешёв и весьма прост в производстве.</GF40K_Ferrocrete.description>
+	<!-- EN: adjective ferrocrete -->
+	<GF40K_Ferrocrete.stuffProps.stuffAdjective>феррокрита</GF40K_Ferrocrete.stuffProps.stuffAdjective>
+</LanguageData>

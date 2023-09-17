@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- EN: making ferrocrete -->
+	<GF40K_Recipe_MakeFerrocreteBlocks.jobString>Изготавливает феррокрит</GF40K_Recipe_MakeFerrocreteBlocks.jobString>
+	<!-- EN: make ferrocrete from stone blocks -->
+	<GF40K_Recipe_MakeFerrocreteBlocks.label>изготовить феррокрит из каменных блоков</GF40K_Recipe_MakeFerrocreteBlocks.label>
+	<!-- EN: Crush stone blocks and steel into ferrocrete. -->
+	<GF40K_Recipe_MakeFerrocreteBlocks.description>Измельчить каменные блоки и сталь для изготовления феррокрита.</GF40K_Recipe_MakeFerrocreteBlocks.description>
+	
+	<!-- EN: making ferrocrete -->
+	<GF40K_Recipe_MakeFerrocreteChunks.jobString>Изготавливает феррокрит</GF40K_Recipe_MakeFerrocreteChunks.jobString>
+	<!-- EN: make ferrocrete from chunks -->
+	<GF40K_Recipe_MakeFerrocreteChunks.label>изготовить феррокрит из каменных обломков</GF40K_Recipe_MakeFerrocreteChunks.label>
+	<!-- EN: Crush stone chunks and steel into ferrocrete. -->
+	<GF40K_Recipe_MakeFerrocreteChunks.description>Измельчить каменные обломки и сталь для изготовления феррокрита.</GF40K_Recipe_MakeFerrocreteChunks.description>
+	
+	<!-- EN: making ferrocrete -->
+	<GF40K_Recipe_MakeFerrocreteSlag.jobString>Изготавливает феррокрит</GF40K_Recipe_MakeFerrocreteSlag.jobString>
+	<!-- EN: make ferrocrete from chunks and slag -->
+	<GF40K_Recipe_MakeFerrocreteSlag.label>изготовить феррокрит из каменных обломков и металлолома</GF40K_Recipe_MakeFerrocreteSlag.label>
+	<!-- EN: Crush stone chunks and steel slag into ferrocrete. -->
+	<GF40K_Recipe_MakeFerrocreteSlag.description>Измельчить каменные обломки и металлолом для изготовления феррокрита.</GF40K_Recipe_MakeFerrocreteSlag.description>
+	
+	<!-- EN: making ferrocrete -->
+	<GF40K_Recipe_MakeFerrocreteBlocks_Bulk.jobString>Изготавливает феррокрит</GF40K_Recipe_MakeFerrocreteBlocks_Bulk.jobString>
+	<!-- EN: make x5 ferrocrete from stone blocks -->
+	<GF40K_Recipe_MakeFerrocreteBlocks_Bulk.label>изготовить феррокрит из каменных блоков x5</GF40K_Recipe_MakeFerrocreteBlocks_Bulk.label>
+	<!-- EN: Crush stone blocks and steel into ferrocrete. -->
+	<GF40K_Recipe_MakeFerrocreteBlocks_Bulk.description>Измельчить каменные блоки и сталь для изготовления феррокрита.</GF40K_Recipe_MakeFerrocreteBlocks_Bulk.description>
+	
+	<!-- EN: making ferrocrete -->
+	<GF40K_Recipe_MakeFerrocreteChunks_Bulk.jobString>Изготавливает феррокрит</GF40K_Recipe_MakeFerrocreteChunks_Bulk.jobString>
+	<!-- EN: make x5 ferrocrete from chunks -->
+	<GF40K_Recipe_MakeFerrocreteChunks_Bulk.label>изготовить феррокрит из каменных обломков x5</GF40K_Recipe_MakeFerrocreteChunks_Bulk.label>
+	<!-- EN: Crush stone chunks and steel into ferrocrete. -->
+	<GF40K_Recipe_MakeFerrocreteChunks_Bulk.description>Измельчить каменные обломки и сталь для изготовления феррокрита.</GF40K_Recipe_MakeFerrocreteChunks_Bulk.description>
+	
+	<!-- EN: making ferrocrete -->
+	<GF40K_Recipe_MakeFerrocreteSlag_Bulk.jobString>Изготавливает феррокрит</GF40K_Recipe_MakeFerrocreteSlag_Bulk.jobString>
+	<!-- EN: make x5 ferrocrete from chunks and slag -->
+	<GF40K_Recipe_MakeFerrocreteSlag_Bulk.label>изготовить феррокрит из каменных обломков и металлолома x5</GF40K_Recipe_MakeFerrocreteSlag_Bulk.label>
+	<!-- EN: Crush stone chunks and steel slag into ferrocrete. -->
+	<GF40K_Recipe_MakeFerrocreteSlag_Bulk.description>Измельчить каменные обломки и металлолом для изготовления феррокрита.</GF40K_Recipe_MakeFerrocreteSlag_Bulk.description>
+	
+	<!-- EN: make ceramite -->
+	<GF40K_Recipe_MakeCeramite.label>изготовить керамит</GF40K_Recipe_MakeCeramite.label>
+	<!-- EN: making ceramite -->
+	<GF40K_Recipe_MakeCeramite.jobString>Изготавливает керамит</GF40K_Recipe_MakeCeramite.jobString>
+	<!-- EN: Process materials into ceramite. -->
+	<GF40K_Recipe_MakeCeramite.description>Обработка материалов для получения керамита.</GF40K_Recipe_MakeCeramite.description>
+	
+	<!-- EN: make x5 ceramite -->
+	<GF40K_Recipe_MakeCeramite_Bulk.label>изготовить керамит x5</GF40K_Recipe_MakeCeramite_Bulk.label>
+	<!-- EN: making ceramite -->
+	<GF40K_Recipe_MakeCeramite_Bulk.jobString>Изготавливает керамит</GF40K_Recipe_MakeCeramite_Bulk.jobString>
+	<!-- EN: Process materials into ceramite. -->
+	<GF40K_Recipe_MakeCeramite_Bulk.description>Обработка материалов для получения керамита.</GF40K_Recipe_MakeCeramite_Bulk.description>
+	
+	<!-- EN: make diamantine -->
+	<GF40K_Recipe_MakeDiamantine.label>изготовить диамантин</GF40K_Recipe_MakeDiamantine.label>
+	<!-- EN: making diamantine -->
+	<GF40K_Recipe_MakeDiamantine.jobString>Изготавливает диамантин</GF40K_Recipe_MakeDiamantine.jobString>
+	<!-- EN: Process materials into diamantine. -->
+	<GF40K_Recipe_MakeDiamantine.description>Обработка материалов для получения диамантина.</GF40K_Recipe_MakeDiamantine.description>
+	<!-- EN: make x5 diamantine -->
+	<GF40K_Recipe_MakeDiamantine_Bulk.label>изготовить диамантин x5</GF40K_Recipe_MakeDiamantine_Bulk.label>
+	<!-- EN: making diamantine -->
+	<GF40K_Recipe_MakeDiamantine_Bulk.jobString>Изготавливает диамантин</GF40K_Recipe_MakeDiamantine_Bulk.jobString>
+	<!-- EN: Process materials into diamantine. -->
+	<GF40K_Recipe_MakeDiamantine_Bulk.description>Обработка материалов для получения диамантина.</GF40K_Recipe_MakeDiamantine_Bulk.description>
+</LanguageData>
