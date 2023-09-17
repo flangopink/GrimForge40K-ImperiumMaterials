@@ -14,15 +14,15 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MarketValue>7</MarketValue>
+      <MarketValue>20</MarketValue>
       <Mass>0.25</Mass>
-      <StuffPower_Armor_Sharp>1.3</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>0.8</StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.65</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>2</StuffPower_Insulation_Heat>
       <SharpDamageMultiplier>1.2</SharpDamageMultiplier>
-      <BluntDamageMultiplier>1</BluntDamageMultiplier>
+      <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
     </statBases>
 	<thingCategories>
 		<li>ResourcesRaw</li>
@@ -34,7 +34,7 @@
 		<li>Metallic</li>
 	  </categories>
 	  <appearance>Metal</appearance>
-	  <commonality>0.01</commonality>
+	  <commonality>0.001</commonality>
 	  <constructEffect>ConstructMetal</constructEffect>
 	  <color>(48,48,48)</color>
 	  <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -44,9 +44,8 @@
 		<MaxHitPoints>3.2</MaxHitPoints>
 		<Beauty>1</Beauty>
 		<Flammability>0</Flammability>
-		<WorkToMake>2.5</WorkToMake>
-		<WorkToBuild>2.5</WorkToBuild>
-		<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+		<WorkToMake>2.3</WorkToMake>
+		<WorkToBuild>2.3</WorkToBuild>
 	  </statFactors>
 	</stuffProps>
 	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -67,8 +66,8 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MarketValue>12</MarketValue>
-      <RoyalFavorValue>0.02</RoyalFavorValue>
+      <MarketValue>20</MarketValue>
+      <RoyalFavorValue>0.03</RoyalFavorValue>
       <Mass>0.01</Mass>
       <StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.38</StuffPower_Armor_Blunt>
@@ -91,7 +90,7 @@
         <li>Metallic</li>
       </categories>
       <appearance>Metal</appearance>
-      <commonality>0.01</commonality>
+      <commonality>0.001</commonality>
 	  <color>(221,161,47)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -104,9 +103,8 @@
         <MaxHitPoints>0.65</MaxHitPoints>
         <Flammability>0.3</Flammability>
         <Beauty>4</Beauty>
-        <WorkToMake>0.9</WorkToMake>
-        <WorkToBuild>0.9</WorkToBuild>
-        <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
+        <WorkToMake>1</WorkToMake>
+        <WorkToBuild>1</WorkToBuild>
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -125,13 +123,13 @@
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
     <statBases>
-      <MarketValue>3</MarketValue>
+      <MarketValue>5</MarketValue>
       <Mass>0.4</Mass>
       <StuffPower_Armor_Sharp>0.92</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.48</StuffPower_Armor_Blunt>
       <StuffPower_Armor_Heat>0.80</StuffPower_Armor_Heat>
       <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
       <SharpDamageMultiplier>1</SharpDamageMultiplier>
       <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
     </statBases>
@@ -147,7 +145,7 @@
         <li>Metallic</li>
       </categories>
       <appearance>Metal</appearance>
-      <commonality>0.05</commonality>
+      <commonality>0.01</commonality>
       <constructEffect>ConstructMetal</constructEffect>
 	  <color>(235,244,243)</color>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -157,6 +155,8 @@
         <MaxHitPoints>1.1</MaxHitPoints>
         <Beauty>1</Beauty>
         <Flammability>0.2</Flammability>
+        <WorkToMake>1.2</WorkToMake>
+        <WorkToBuild>1.2</WorkToBuild>
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -175,15 +175,15 @@
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
     <statBases>
-      <MarketValue>5</MarketValue>
+      <MarketValue>10</MarketValue>
       <Mass>0.5</Mass>
-      <StuffPower_Armor_Sharp>0.95</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>0.80</StuffPower_Armor_Heat>
+      <StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.75</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.90</StuffPower_Armor_Heat>
       <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-      <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
-      <BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+      <StuffPower_Insulation_Heat>7</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.25</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
     </statBases>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -197,16 +197,18 @@
         <li>Metallic</li>
       </categories>
       <appearance>Metal</appearance>
-      <commonality>0.01</commonality>
+      <commonality>0.002</commonality>
       <constructEffect>ConstructMetal</constructEffect>
-	  <color>(178,64,127)</color>
+	  <color>(150,150,150)</color>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
       <statFactors>
-        <MaxHitPoints>2</MaxHitPoints>
-        <Beauty>1</Beauty>
-        <Flammability>0.1</Flammability>
+        <MaxHitPoints>2.75</MaxHitPoints>
+        <Beauty>2</Beauty>
+        <Flammability>0</Flammability>
+        <WorkToMake>2</WorkToMake>
+        <WorkToBuild>2</WorkToBuild>
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -226,11 +228,9 @@
     <soundDrop>Stone_Drop</soundDrop>
     <useHitPoints>false</useHitPoints>
     <statBases>
-      <Mass>1.5</Mass>
-      <MaxHitPoints>200</MaxHitPoints>
-      <MarketValue>3</MarketValue>
-      <SharpDamageMultiplier>0.7</SharpDamageMultiplier>
-      <BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+      <Mass>0.5</Mass>
+      <MaxHitPoints>300</MaxHitPoints>
+      <MarketValue>5</MarketValue>
       <Beauty>-6</Beauty>
       <ConstructionSpeedFactor>0.8</ConstructionSpeedFactor>
     </statBases>
@@ -243,19 +243,21 @@
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <color>(105,95,97)</color>
+      <color>(100,100,100)</color>
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.02</commonality>
+      <commonality>0.01</commonality>
       <appearance>Metal</appearance>
       <statOffsets>
         <WorkToBuild>150</WorkToBuild>
       </statOffsets>
       <statFactors>
-        <MaxHitPoints>3</MaxHitPoints>
+		<Beauty>1.1</Beauty>
+		<MarketValue>0.85</MarketValue>
+        <MaxHitPoints>5</MaxHitPoints>
         <Flammability>0</Flammability>
-        <WorkToBuild>7.0</WorkToBuild>
+        <WorkToBuild>6.0</WorkToBuild>
         <WorkToMake>1.5</WorkToMake>
         <DoorOpenSpeed>0.45</DoorOpenSpeed>
         <BedRestEffectiveness>0.9</BedRestEffectiveness>
