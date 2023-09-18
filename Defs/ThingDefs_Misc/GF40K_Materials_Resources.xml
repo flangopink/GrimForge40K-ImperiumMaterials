@@ -69,14 +69,14 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MarketValue>11</MarketValue>
+      <MarketValue>16</MarketValue>
       <RoyalFavorValue>0.03</RoyalFavorValue>
       <Mass>0.25</Mass>
-      <StuffPower_Armor_Sharp>1.16</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.58</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>0.68</StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <StuffPower_Armor_Sharp>1.17</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.59</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.69</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>2</StuffPower_Insulation_Heat>
       <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
       <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
     </statBases>
@@ -103,11 +103,11 @@
         <Beauty>20</Beauty>
       </statOffsets>
       <statFactors>
-        <MaxHitPoints>0.65</MaxHitPoints>
-        <Flammability>0.3</Flammability>
+        <MaxHitPoints>2.65</MaxHitPoints>
+        <Flammability>0</Flammability>
         <Beauty>4</Beauty>
-        <WorkToMake>1</WorkToMake>
-        <WorkToBuild>1</WorkToBuild>
+        <WorkToMake>1.5</WorkToMake>
+        <WorkToBuild>1.5</WorkToBuild>
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
