@@ -14,7 +14,7 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MarketValue>20</MarketValue>
+      <MarketValue>10</MarketValue>
       <Mass>0.25</Mass>
       <StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
@@ -69,7 +69,7 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MarketValue>16</MarketValue>
+      <MarketValue>12/MarketValue>
       <RoyalFavorValue>0.03</RoyalFavorValue>
       <Mass>0.25</Mass>
       <StuffPower_Armor_Sharp>1.17</StuffPower_Armor_Sharp>
