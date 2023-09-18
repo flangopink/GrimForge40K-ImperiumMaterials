@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: adamantium ore -->
+  <GF40K_Mineable_Adamantium.label>адамантиевая руда</GF40K_Mineable_Adamantium.label>
+  <!-- EN: Rock containing bits of adamantium. -->
+  <GF40K_Mineable_Adamantium.description>Каменистая порода с вкраплениями адамантия.</GF40K_Mineable_Adamantium.description>
+  <!-- EN: auramite ore -->
+  <GF40K_Mineable_Auramite.label>аурамитовая руда</GF40K_Mineable_Auramite.label>
+  <!-- EN: Rock containing bits of auramite. -->
+  <GF40K_Mineable_Auramite.description>Порода, содержащая крупицы аурамита.</GF40K_Mineable_Auramite.description>
+</LanguageData>

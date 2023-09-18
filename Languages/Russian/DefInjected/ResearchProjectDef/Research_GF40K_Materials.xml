@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- EN: Ceramite -->
+	<GF40K_IM_Ceramite.label>керамит</GF40K_IM_Ceramite.label>
+	<!-- EN: Advanced materials research: Ceramite. -->
+	<GF40K_IM_Ceramite.description>Рецепт изготовления керамита.\n\nКерамит — это тип тепло- и ударостойкого керамического материала, используемого Империумом для производства высокотехнологичной брони: панцирной, силовой или тактической брони дредноута.</GF40K_IM_Ceramite.description>
+	<!-- EN: Diamantine -->
+	<GF40K_IM_Diamantine.label>диамантин</GF40K_IM_Diamantine.label>
+	<!-- EN: Advanced materials research: Diamantine. -->
+	<GF40K_IM_Diamantine.description>Рецепт изготовления диамантина.\n\nДиамантин — это металлический материал, широко применяемый в Империуме Человечества для производства оружия, боеприпасов и брони.</GF40K_IM_Diamantine.description>
+	<!-- EN: Ferrocrete -->
+	<GF40K_IM_Ferrocrete.label>феррокрит</GF40K_IM_Ferrocrete.label>
+	<!-- EN: Advanced materials research: Ferrocrete. -->
+	<GF40K_IM_Ferrocrete.description>Рецепт изготовления феррокрита.\n\nФеррокрит, изготовляемый на основе раздробленного природного камня, смешанного со связующими агентами, применяется в виде тяжёлых толстых плит, идущих на сооружение стен и перекрытий.</GF40K_IM_Ferrocrete.description>
+</LanguageData>
