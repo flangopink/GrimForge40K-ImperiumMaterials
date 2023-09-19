@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
  <ThingDef ParentName="ResourceBase">
@@ -14,21 +14,24 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MarketValue>20</MarketValue>
+      <MarketValue>13</MarketValue>
       <Mass>0.25</Mass>
-      <StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>0.65</StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>2</StuffPower_Insulation_Heat>
+      <StuffPower_Armor_Sharp>1.8</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.5</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
       <SharpDamageMultiplier>1.2</SharpDamageMultiplier>
-      <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
+      <BluntDamageMultiplier>1.2</BluntDamageMultiplier>
     </statBases>
 	<thingCategories>
 		<li>ResourcesRaw</li>
 	</thingCategories>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
+    <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>15</deepCountPerPortion>
+    <deepLumpSizeRange>1~4</deepLumpSizeRange>
 	<stuffProps>
 	  <categories>
 		<li>Metallic</li>
@@ -41,11 +44,11 @@
 	  <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 	  <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 	  <statFactors>
-		<MaxHitPoints>3.2</MaxHitPoints>
-		<Beauty>1</Beauty>
+		<MaxHitPoints>3</MaxHitPoints>
+		<Beauty>2</Beauty>
 		<Flammability>0</Flammability>
-		<WorkToMake>2.3</WorkToMake>
-		<WorkToBuild>2.3</WorkToBuild>
+		<WorkToMake>3</WorkToMake>
+		<WorkToBuild>3</WorkToBuild>
 	  </statFactors>
 	</stuffProps>
 	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -66,24 +69,25 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MarketValue>20</MarketValue>
+      <MarketValue>12</MarketValue>
       <RoyalFavorValue>0.03</RoyalFavorValue>
-      <Mass>0.01</Mass>
-      <StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.38</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>0.38</StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-      <SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+      <Mass>0.25</Mass>
+      <StuffPower_Armor_Sharp>1.20</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.60</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.70</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>2</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
       <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
-    <smallVolume>true</smallVolume>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
-    <possessionCount>5</possessionCount>
+    <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>15</deepCountPerPortion>
+    <deepLumpSizeRange>1~4</deepLumpSizeRange>
     <stuffProps>
       <categories>
         <li>Metallic</li>
@@ -99,15 +103,15 @@
         <Beauty>20</Beauty>
       </statOffsets>
       <statFactors>
-        <MaxHitPoints>0.65</MaxHitPoints>
-        <Flammability>0.3</Flammability>
+        <MaxHitPoints>2.65</MaxHitPoints>
+        <Flammability>0</Flammability>
         <Beauty>4</Beauty>
-        <WorkToMake>1</WorkToMake>
-        <WorkToBuild>1</WorkToBuild>
+        <WorkToMake>1.5</WorkToMake>
+        <WorkToBuild>1.5</WorkToBuild>
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <allowedArchonexusCount>100</allowedArchonexusCount>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
   
 
@@ -123,14 +127,14 @@
     <soundDrop>Metal_Drop</soundDrop>
     <statBases>
       <MarketValue>5</MarketValue>
-      <Mass>0.4</Mass>
-      <StuffPower_Armor_Sharp>0.92</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.48</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>0.80</StuffPower_Armor_Heat>
+      <Mass>0.25</Mass>
+      <StuffPower_Armor_Sharp>1.25</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.10</StuffPower_Armor_Heat>
       <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
-      <SharpDamageMultiplier>1</SharpDamageMultiplier>
-      <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
+      <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.9</BluntDamageMultiplier>
     </statBases>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -151,11 +155,11 @@
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
       <statFactors>
-        <MaxHitPoints>1.1</MaxHitPoints>
+        <MaxHitPoints>2.5</MaxHitPoints>
         <Beauty>1</Beauty>
         <Flammability>0.2</Flammability>
-        <WorkToMake>1.2</WorkToMake>
-        <WorkToBuild>1.2</WorkToBuild>
+        <WorkToMake>2.2</WorkToMake>
+        <WorkToBuild>2.2</WorkToBuild>
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -174,15 +178,15 @@
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
     <statBases>
-      <MarketValue>10</MarketValue>
-      <Mass>0.5</Mass>
-      <StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.75</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>0.90</StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>7</StuffPower_Insulation_Heat>
-      <SharpDamageMultiplier>1.25</SharpDamageMultiplier>
-      <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
+      <MarketValue>12</MarketValue>
+      <Mass>0.25</Mass>
+      <StuffPower_Armor_Sharp>1.35</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.10</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.45</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1</BluntDamageMultiplier>
     </statBases>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -203,7 +207,7 @@
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
       <statFactors>
-        <MaxHitPoints>2.75</MaxHitPoints>
+        <MaxHitPoints>3.2</MaxHitPoints>
         <Beauty>2</Beauty>
         <Flammability>0</Flammability>
         <WorkToMake>2</WorkToMake>
