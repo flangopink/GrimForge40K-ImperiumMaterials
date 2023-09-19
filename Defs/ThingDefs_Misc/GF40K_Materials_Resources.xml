@@ -14,7 +14,7 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MarketValue>10</MarketValue>
+      <MarketValue>20</MarketValue>
       <Mass>0.25</Mass>
       <StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
@@ -29,9 +29,6 @@
 	</thingCategories>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
-    <deepCommonality>0.5</deepCommonality>
-    <deepCountPerPortion>15</deepCountPerPortion>
-    <deepLumpSizeRange>1~4</deepLumpSizeRange>
 	<stuffProps>
 	  <categories>
 		<li>Metallic</li>
@@ -69,25 +66,24 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MarketValue>12/MarketValue>
+      <MarketValue>20</MarketValue>
       <RoyalFavorValue>0.03</RoyalFavorValue>
-      <Mass>0.25</Mass>
-      <StuffPower_Armor_Sharp>1.17</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.59</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>0.69</StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>2</StuffPower_Insulation_Heat>
-      <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+      <Mass>0.01</Mass>
+      <StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.38</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.38</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.75</SharpDamageMultiplier>
       <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
+    <smallVolume>true</smallVolume>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
-    <deepCommonality>0.5</deepCommonality>
-    <deepCountPerPortion>15</deepCountPerPortion>
-    <deepLumpSizeRange>1~4</deepLumpSizeRange>
+    <possessionCount>5</possessionCount>
     <stuffProps>
       <categories>
         <li>Metallic</li>
@@ -103,15 +99,15 @@
         <Beauty>20</Beauty>
       </statOffsets>
       <statFactors>
-        <MaxHitPoints>2.65</MaxHitPoints>
-        <Flammability>0</Flammability>
+        <MaxHitPoints>0.65</MaxHitPoints>
+        <Flammability>0.3</Flammability>
         <Beauty>4</Beauty>
-        <WorkToMake>1.5</WorkToMake>
-        <WorkToBuild>1.5</WorkToBuild>
+        <WorkToMake>1</WorkToMake>
+        <WorkToBuild>1</WorkToBuild>
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <allowedArchonexusCount>80</allowedArchonexusCount>
+    <allowedArchonexusCount>100</allowedArchonexusCount>
   </ThingDef>
   
 
