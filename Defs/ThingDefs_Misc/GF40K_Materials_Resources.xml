@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
- <ThingDef ParentName="ResourceBase">
+  <ThingDef ParentName="ResourceBase">
     <defName>GF40K_Adamantium</defName>
     <label>adamantium</label>
     <description>Adamantium is perhaps the strongest material used by the Imperium, impenetrable to most commonplace weapons.\n\nIt is the material composing the Imperial Palace's Eternity Gate, and is often used in conjunction with plasteel and ceramite, such as in the structure of Terminator Armour.</description>
@@ -219,10 +219,10 @@
   </ThingDef>
 
 
- <ThingDef ParentName="ResourceBase">
+  <ThingDef ParentName="ResourceBase">
     <defName>GF40K_Ferrocrete</defName>
     <label>ferrocrete</label>
-    <description>Steel mesh and rebar reinforced epoxy based concrete (Ferro-Plasecrete). A cheaper substitute from pure cerablock and ceraplate but still vastly superior to concrete. Has even been used as ablative armour.</description>
+    <description>Steel mesh and rebar reinforced epoxy based concrete (Ferro-Plasecrete). A cheaper substitute from pure cerablock and ceraplate but still vastly superior to concrete. It has even been used as ablative armour.</description>
     <graphicData>
       <texPath>Ferrocrete</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -248,7 +248,7 @@
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <color>(100,100,100)</color>
       <categories>
-        <li>Stony</li>
+        <li>Metallic</li>
       </categories>
       <commonality>0.01</commonality>
       <appearance>Metal</appearance>
